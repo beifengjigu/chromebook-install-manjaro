@@ -7,5 +7,6 @@ Chromebook is a kind of great product. But to be honest, it still has some big p
 (4)Run rufus and choose the iso file, just follow the guide and enjoy a cup of water, you will get a warm USB-disk that can make a big difference.
 2."Install seabios on chromebook"
 (1)https://blog.tangbao.me/2015/12/acer-cb3-111-c670-install-linux/
-(2)Some device can't run john's seabios, and chromebox's seabios maybe work. So if you can't install john's seaios, run cd; rm -f flash_chromebook_rom.sh;  curl -L -O https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh. If you want to know more, search mrchromebox and you will find want you want.
+(2)Some device can't run john's seabios, and chromebox's seabios maybe work. So if you can't install john's seaios, run:
+cd; rm -f flash_chromebook_rom.sh;  curl -L -O https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh. If you want to know more, search mrchromebox and you will find want you want.
 3.Insert the USB disk on your chromebook,shutdown and start it, you will see the bios work. Choose "boot manager" and then choose USB-Device, it works! Now you have a powerful computer with linux system! Enjoy it!
